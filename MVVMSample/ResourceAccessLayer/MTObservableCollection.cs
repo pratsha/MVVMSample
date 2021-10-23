@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Threading;
 
-namespace MVVMSample.PresentationLayer.ViewModels
+namespace MVVMSample.ResourceAccessLayer
 {
     public class MTObservableCollection<T> : ObservableCollection<T>
     {

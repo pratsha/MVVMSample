@@ -95,7 +95,7 @@
     <Compile Include="BusinessLogicLayer\PatientManager.cs" />
     <Compile Include="MainWindowViewModel.cs" />
     <Compile Include="PresentationLayer\Models\Patient.cs" />
-    <Compile Include="PresentationLayer\ViewModels\MTObservableCollection.cs" />
+    <Compile Include="ResourceAccessLayer\MTObservableCollection.cs" />
     <Compile Include="PresentationLayer\ViewModels\PatientDetailViewModel.cs" />
     <Compile Include="PresentationLayer\Views\PatientDetailView.xaml.cs">
       <DependentUpon>PatientDetailView.xaml</DependentUpon>

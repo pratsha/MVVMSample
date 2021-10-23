@@ -7,8 +7,10 @@ using System.ComponentModel;
 using System.Windows.Input;
 using MVVMSample.Common;
 using MVVMSample.BusinessLogicLayer;
+
 using System.Windows;
 using System.Collections.ObjectModel;
+using MVVMSample.ResourceAccessLayer;
 
 namespace MVVMSample.PresentationLayer.ViewModels
 {
