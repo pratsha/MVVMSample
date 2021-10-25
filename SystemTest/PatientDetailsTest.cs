@@ -34,9 +34,10 @@ namespace SystemTest
             Console.WriteLine(lst.Count);
             foreach (var item in lst)
             {
+                Thread.Sleep(2000);
                 Assert.IsTrue(item.Length > 0);
                 Console.WriteLine(item);
-                Thread.Sleep(2000);
+               
             }
 
 
@@ -54,10 +55,11 @@ namespace SystemTest
 
             foreach (var item in dictPatients.Keys)
             {
+                Thread.Sleep(2000);
                 Assert.IsTrue(dictPatients[item][0].Length > 0);
                 Assert.IsTrue(dictPatients[item][1].Length > 0);
                 Console.WriteLine($"{item}|{dictPatients[item][0]}|{dictPatients[item][1]}");
-                Thread.Sleep(2000);
+                
             }
 
         }
@@ -66,10 +68,10 @@ namespace SystemTest
         public void PatientDetails_DeletePatient()
         {
             var id = 101;
-
+            Thread.Sleep(2000);
             var dictPatients = TestApi.GetTestService().DeletePatient(id);
             Assert.IsFalse(dictPatients.ContainsKey(id.ToString()));
-            Thread.Sleep(2000);
+            
 
         }
     }

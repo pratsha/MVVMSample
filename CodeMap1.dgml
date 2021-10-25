@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DirectedGraph DataVirtualized="True" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="(@5)" Category="CodeSchema_Assembly" Bounds="349.143333333333,0,168.886666666667,25" CodeSchemaProperty_StrongName="TestServiceClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(8ad70bcf-0c89-47f8-9d1a-ad6615cc937d.OutputPath)" Group="Collapsed" Label="TestServiceClient.exe" />
-    <Node Id="(@8)" Category="CodeSchema_Assembly" Bounds="184.268333333333,0,134.636666666667,25" CodeSchemaProperty_StrongName="SystemTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(19823256-5314-4d49-8c6c-a10da736dfed.OutputPath)" Group="Collapsed" Label="SystemTest.dll">
+    <Node Id="(@5)" Category="CodeSchema_Assembly" Bounds="-374.890466666667,-173.6,168.886666666667,25" CodeSchemaProperty_StrongName="TestServiceClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(ef96a3cd-98ba-4ac7-83e8-0fac1dfbc9af.OutputPath)" Group="Collapsed" Label="TestServiceClient.exe" UseManualLocation="True" />
+    <Node Id="(@8)" Category="CodeSchema_Assembly" Bounds="-369.8942,-58.4,134.636666666667,25" CodeSchemaProperty_StrongName="SystemTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(15c837db-0884-4519-bf19-ca0ed325f6cd.OutputPath)" Group="Collapsed" Label="SystemTest.dll" UseManualLocation="True">
       <Category Ref="CodeMap_TestAsset" />
       <Category Ref="CodeMap_TestProject" />
       <Category Ref="FileSystem.Category.FileOfType.dll" />
     </Node>
-    <Node Id="@2" Category="CodeSchema_Assembly" Bounds="0,110,157.173333333333,25" CodeSchemaProperty_StrongName="MVVMSample, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(c888df85-ac70-499e-b187-f0c5c2fac47d.OutputPath)" Group="Collapsed" Label="MVVMSample.exe">
+    <Node Id="@2" Category="CodeSchema_Assembly" Bounds="309.1361,-54.4000000000001,157.173333333333,25" CodeSchemaProperty_StrongName="MVVMSample, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(c888df85-ac70-499e-b187-f0c5c2fac47d.OutputPath)" Group="Collapsed" Label="MVVMSample.exe" UseManualLocation="True">
       <Category Ref="CodeMap_WpfProject" />
       <Category Ref="FileSystem.Category.FileOfType.exe" />
     </Node>
-    <Node Id="@4" Category="CodeSchema_Assembly" Bounds="3.30500000000018,0,150.563333333333,25" CodeSchemaProperty_StrongName="UIIntegration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(dee11265-6df2-4e77-bde5-7360e5a59896.OutputPath)" Group="Collapsed" Label="UIIntegration.exe" />
-    <Node Id="@7" Category="CodeSchema_Assembly" Bounds="110.071666666667,55,151.03,25" CodeSchemaProperty_StrongName="TestApiService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(fa371e99-ae8d-4e19-bba4-2423bd5ebebd.OutputPath)" Group="Collapsed" Label="TestApiService.dll" />
+    <Node Id="@4" Category="CodeSchema_Assembly" Bounds="131.542566666667,89.5999999999999,150.563333333333,25" CodeSchemaProperty_StrongName="UIIntegration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(2cb7757e-d6fa-44ea-8071-e7df15ba9d2a.OutputPath)" Group="Collapsed" Label="UIIntegration.exe" UseManualLocation="True" />
+    <Node Id="@7" Category="CodeSchema_Assembly" Bounds="-3.09400000000004,-60.8,151.03,25" CodeSchemaProperty_StrongName="TestApiService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(77370a85-ee8d-47c9-9e7f-dae4620717cb.OutputPath)" Group="Collapsed" Label="TestApiService.dll" UseManualLocation="True" />
   </Nodes>
   <Links>
-    <Link Source="(@5)" Target="@7" Category="CodeSchema_Calls" Bounds="250.736793599352,25,126.486262323501,28.0514015723755" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="11">
+    <Link Source="(@5)" Target="@7" Category="CodeSchema_Calls" Bounds="-250.235682387707,-148.6,273.850900538394,85.1283944306971" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="11">
       <Category Ref="CodeMap_ProjectReference" />
     </Link>
-    <Link Source="(@8)" Target="@7" Category="References" Bounds="207.500625758361,24.999925,29.0860681809835,24.2384342206199" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="15">
+    <Link Source="(@8)" Target="@7" Category="References" Bounds="-235.257533333333,-47.759100660117,223.163717650751,1.4282597268683" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="15">
       <Category Ref="CodeMap_ProjectReference" />
       <Category Ref="CodeSchema_Calls" />
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@4" Target="@2" Category="CodeSchema_Calls" Bounds="78.5866666666667,24.999925,9.9475983006414E-14,76.0002" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+    <Link Source="@4" Target="@2" Category="CodeSchema_Calls" Bounds="222.527231018519,-23.794822247309,142.451090500918,113.394822247309" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
       <Category Ref="CodeMap_ProjectReference" />
     </Link>
-    <Link Source="@4" Target="@7" Category="CodeSchema_Calls" Bounds="102.904804270053,24.999925,50.3592684932185,25.8856523649894" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3">
+    <Link Source="@4" Target="@7" Category="CodeSchema_Calls" Bounds="89.5885405602586,-29.0891667765218,106.065211279281,118.689166776522" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3">
       <Category Ref="CodeMap_ProjectReference" />
     </Link>
-    <Link Source="@7" Target="@2" Category="References" Bounds="110.909260570062,80.000025,50.3592684932186,25.8856523649894" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="24">
+    <Link Source="@7" Target="@2" Category="References" Bounds="147.936,-46.7671953947187,152.201953469649,3.08939753970844" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="24">
       <Category Ref="CodeMap_ProjectReference" />
       <Category Ref="CodeSchema_Calls" />
     </Link>
@@ -60,7 +60,7 @@
     <Property Id="FilePath" Label="File Path" Description="File Path" DataType="System.String" />
     <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
     <Property Id="GroupLabel" DataType="System.String" />
-    <Property Id="Icon" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
     <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
     <Property Id="IsEnabled" DataType="System.Boolean" />
     <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
@@ -71,6 +71,7 @@
     <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
     <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
     <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
     <Property Id="Value" DataType="System.String" />
     <Property Id="ValueLabel" DataType="System.String" />
     <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
@@ -83,12 +84,12 @@
   <IdentifierAliases>
     <Alias n="1" Uri="Assembly=$(c888df85-ac70-499e-b187-f0c5c2fac47d.OutputPathUri)" />
     <Alias n="2" Id="(@1)" />
-    <Alias n="3" Uri="Assembly=$(dee11265-6df2-4e77-bde5-7360e5a59896.OutputPathUri)" />
+    <Alias n="3" Uri="Assembly=$(2cb7757e-d6fa-44ea-8071-e7df15ba9d2a.OutputPathUri)" />
     <Alias n="4" Id="(@3)" />
-    <Alias n="5" Uri="Assembly=$(8ad70bcf-0c89-47f8-9d1a-ad6615cc937d.OutputPathUri)" />
-    <Alias n="6" Uri="Assembly=$(fa371e99-ae8d-4e19-bba4-2423bd5ebebd.OutputPathUri)" />
+    <Alias n="5" Uri="Assembly=$(ef96a3cd-98ba-4ac7-83e8-0fac1dfbc9af.OutputPathUri)" />
+    <Alias n="6" Uri="Assembly=$(77370a85-ee8d-47c9-9e7f-dae4620717cb.OutputPathUri)" />
     <Alias n="7" Id="(@6)" />
-    <Alias n="8" Uri="Assembly=$(19823256-5314-4d49-8c6c-a10da736dfed.OutputPathUri)" />
+    <Alias n="8" Uri="Assembly=$(15c837db-0884-4519-bf19-ca0ed325f6cd.OutputPathUri)" />
   </IdentifierAliases>
   <Styles>
     <Style TargetType="Node" GroupLabel="Results" ValueLabel="True">
@@ -308,15 +309,15 @@
     </Style>
   </Styles>
   <Paths>
-    <Path Id="19823256-5314-4d49-8c6c-a10da736dfed.OutputPath" Value="C:\Users\z003b9eb\Downloads\MVVMSample\MVVMSample\SystemTest\bin\Release\SystemTest.dll" />
-    <Path Id="19823256-5314-4d49-8c6c-a10da736dfed.OutputPathUri" Value="file:///C:/Users/z003b9eb/Downloads/MVVMSample/MVVMSample/SystemTest/bin/Release/SystemTest.dll" />
-    <Path Id="8ad70bcf-0c89-47f8-9d1a-ad6615cc937d.OutputPath" Value="C:\Users\z003b9eb\Downloads\MVVMSample\TestServiceClient\bin\Release\TestServiceClient.exe" />
-    <Path Id="8ad70bcf-0c89-47f8-9d1a-ad6615cc937d.OutputPathUri" Value="file:///C:/Users/z003b9eb/Downloads/MVVMSample/TestServiceClient/bin/Release/TestServiceClient.exe" />
-    <Path Id="c888df85-ac70-499e-b187-f0c5c2fac47d.OutputPath" Value="C:\Users\z003b9eb\Downloads\MVVMSample\MVVMSample\MVVMSample\bin\Release\MVVMSample.exe" />
-    <Path Id="c888df85-ac70-499e-b187-f0c5c2fac47d.OutputPathUri" Value="file:///C:/Users/z003b9eb/Downloads/MVVMSample/MVVMSample/MVVMSample/bin/Release/MVVMSample.exe" />
-    <Path Id="dee11265-6df2-4e77-bde5-7360e5a59896.OutputPath" Value="C:\Users\z003b9eb\Downloads\MVVMSample\UIIntegration\bin\Release\UIIntegration.exe" />
-    <Path Id="dee11265-6df2-4e77-bde5-7360e5a59896.OutputPathUri" Value="file:///C:/Users/z003b9eb/Downloads/MVVMSample/UIIntegration/bin/Release/UIIntegration.exe" />
-    <Path Id="fa371e99-ae8d-4e19-bba4-2423bd5ebebd.OutputPath" Value="C:\Users\z003b9eb\Downloads\MVVMSample\TestApiService\bin\Release\TestApiService.dll" />
-    <Path Id="fa371e99-ae8d-4e19-bba4-2423bd5ebebd.OutputPathUri" Value="file:///C:/Users/z003b9eb/Downloads/MVVMSample/TestApiService/bin/Release/TestApiService.dll" />
+    <Path Id="15c837db-0884-4519-bf19-ca0ed325f6cd.OutputPath" Value="D:\MVVMSample\MVVMSample\SystemTest\bin\Release\SystemTest.dll" />
+    <Path Id="15c837db-0884-4519-bf19-ca0ed325f6cd.OutputPathUri" Value="file:///D:/MVVMSample/MVVMSample/SystemTest/bin/Release/SystemTest.dll" />
+    <Path Id="2cb7757e-d6fa-44ea-8071-e7df15ba9d2a.OutputPath" Value="D:\MVVMSample\MVVMSample\UIIntegration\bin\Release\UIIntegration.exe" />
+    <Path Id="2cb7757e-d6fa-44ea-8071-e7df15ba9d2a.OutputPathUri" Value="file:///D:/MVVMSample/MVVMSample/UIIntegration/bin/Release/UIIntegration.exe" />
+    <Path Id="77370a85-ee8d-47c9-9e7f-dae4620717cb.OutputPath" Value="D:\MVVMSample\MVVMSample\TestApiService\bin\Release\TestApiService.dll" />
+    <Path Id="77370a85-ee8d-47c9-9e7f-dae4620717cb.OutputPathUri" Value="file:///D:/MVVMSample/MVVMSample/TestApiService/bin/Release/TestApiService.dll" />
+    <Path Id="c888df85-ac70-499e-b187-f0c5c2fac47d.OutputPath" Value="D:\MVVMSample\MVVMSample\MVVMSample\bin\Release\MVVMSample.exe" />
+    <Path Id="c888df85-ac70-499e-b187-f0c5c2fac47d.OutputPathUri" Value="file:///D:/MVVMSample/MVVMSample/MVVMSample/bin/Release/MVVMSample.exe" />
+    <Path Id="ef96a3cd-98ba-4ac7-83e8-0fac1dfbc9af.OutputPath" Value="D:\MVVMSample\MVVMSample\TestServiceClient\bin\Release\TestServiceClient.exe" />
+    <Path Id="ef96a3cd-98ba-4ac7-83e8-0fac1dfbc9af.OutputPathUri" Value="file:///D:/MVVMSample/MVVMSample/TestServiceClient/bin/Release/TestServiceClient.exe" />
   </Paths>
 </DirectedGraph>
