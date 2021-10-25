@@ -1,6 +1,6 @@
 ﻿using TestApiService;
 
-namespace SystemTest
+namespace SystemTestAdapter
 {
     class TestApi
     {

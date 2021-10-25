@@ -49,7 +49,6 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TestApi.cs" />
     <Compile Include="PatientDetailsTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -60,9 +59,13 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TestApiService\TestApiService.csproj">
-      <Project>{77370a85-ee8d-47c9-9e7f-dae4620717cb}</Project>
-      <Name>TestApiService</Name>
+    <ProjectReference Include="..\SystemTestAdapter\SystemTestAdapter.csproj">
+      <Project>{5e1f14ac-c781-42ab-91b7-2ae9f116b272}</Project>
+      <Name>SystemTestAdapter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SytemTestInterfaces\SytemTestInterfaces.csproj">
+      <Project>{c7ce1412-245a-4fe7-8dc7-be6858ef269b}</Project>
+      <Name>SytemTestInterfaces</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

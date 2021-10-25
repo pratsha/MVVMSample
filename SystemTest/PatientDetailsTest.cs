@@ -1,25 +1,27 @@
 ﻿using System;
 using System.Threading;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using TestApiService;
+using SystemTestAdapter;
+using SytemTestInterfaces;
 
 namespace SystemTest
 {
     [TestClass]
     public class PatientDetailsTest
     {
+        static IPatientDetails pat;
         [ClassInitialize]
         public static void ClassInitialize(TestContext testContext)
         {
-            TestApi.Connect();
+            pat = new PatientDetails();
         }
         [TestMethod]
         public void Add_PatientDetails_VerifyAdded()
         {
-            var mobile = TestApi.GetTestService().SetMobileNumber(7898745676);
-            var name = TestApi.GetTestService().SetName("Test1");
-            var id = TestApi.GetTestService().SetId(101);
-            var dictPatient = TestApi.GetTestService().AddPatient();
+            var mobile = pat.SetMobileNumber(7898745676);
+            var name = pat.SetName("Test1");
+            var id = pat.SetId(101);
+            var dictPatient = pat.AddPatient();
             Thread.Sleep(5000);
             Assert.IsTrue(dictPatient.ContainsKey(id.ToString()));
 
@@ -30,7 +32,7 @@ namespace SystemTest
         {
 
             var id = 101;
-            var lst = TestApi.GetTestService().Search(id);
+            var lst = pat.Search(id);
             Console.WriteLine(lst.Count);
             foreach (var item in lst)
             {
@@ -46,11 +48,11 @@ namespace SystemTest
         [TestMethod]
         public void PatientDetails_VerifyGrid()
         {
-            var mobile = TestApi.GetTestService().SetMobileNumber(9878659812);
-            var name = TestApi.GetTestService().SetName("Test2");
-            var id = TestApi.GetTestService().SetId(102);
+            var mobile = pat.SetMobileNumber(9878659812);
+            var name = pat.SetName("Test2");
+            var id = pat.SetId(102);
 
-            var dictPatients = TestApi.GetTestService().AddPatient();
+            var dictPatients = pat.AddPatient();
 
 
             foreach (var item in dictPatients.Keys)
@@ -69,7 +71,7 @@ namespace SystemTest
         {
             var id = 101;
             Thread.Sleep(2000);
-            var dictPatients = TestApi.GetTestService().DeletePatient(id);
+            var dictPatients = pat.DeletePatient(id);
             Assert.IsFalse(dictPatients.ContainsKey(id.ToString()));
             
 
