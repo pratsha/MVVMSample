@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIIntegration", "..\UIInteg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestServiceClient", "..\TestServiceClient\TestServiceClient.csproj", "{8AD70BCF-0C89-47F8-9D1A-AD6615CC937D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemTest", "SystemTest\SystemTest.csproj", "{19823256-5314-4D49-8C6C-A10DA736DFED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemTest", "..\SystemTest\SystemTest.csproj", "{679FC587-B765-4B53-B9F9-AFA056BEEF94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{8AD70BCF-0C89-47F8-9D1A-AD6615CC937D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AD70BCF-0C89-47F8-9D1A-AD6615CC937D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AD70BCF-0C89-47F8-9D1A-AD6615CC937D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{19823256-5314-4D49-8C6C-A10DA736DFED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{19823256-5314-4D49-8C6C-A10DA736DFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{19823256-5314-4D49-8C6C-A10DA736DFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{19823256-5314-4D49-8C6C-A10DA736DFED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{679FC587-B765-4B53-B9F9-AFA056BEEF94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{679FC587-B765-4B53-B9F9-AFA056BEEF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{679FC587-B765-4B53-B9F9-AFA056BEEF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{679FC587-B765-4B53-B9F9-AFA056BEEF94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
