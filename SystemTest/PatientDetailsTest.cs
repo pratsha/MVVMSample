@@ -21,8 +21,9 @@ namespace SystemTest
             var mobile = pat.SetMobileNumber(7898745676);
             var name = pat.SetName("Test1");
             var id = pat.SetId(101);
-            var dictPatient = pat.AddPatient();
             Thread.Sleep(5000);
+            var dictPatient = pat.AddPatient();
+            
             Assert.IsTrue(dictPatient.ContainsKey(id.ToString()));
 
         }
